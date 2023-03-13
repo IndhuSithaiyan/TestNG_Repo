@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" verbose="2">
+	<test name="TestCases">
+	<parameter name="Name" value="Duck"></parameter>
+	<!-- <groups>
+	<run>
+	<include name="Moto"></include>
+	<include name="Vivo"></include>
+	</run>
+	</groups> -->
+		<classes>
+		<!--<class name="testNG.DependenciesManagement"></class>
+			<class name="testNG.DriverACar"></class>
+			<class name="testNG.SkipATestCase"></class>
+			<class name="testNG.SampleTestCase"></class> -->
+			<!-- <class name="testNG.GroupingExample"></class> -->
+			<class name="testNG.ParameterizationExample"></class>
+		</classes>
+	</test>
+</suite>
